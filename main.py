@@ -15,9 +15,9 @@ def menu():
 
 while(True):
     menu()
+    valor1 = float(input("Qual o valor1?"))
+    valor2 = float(input("Qual o valor2?"))
     opcao = input("Digite o valor da operação que você deseja realizar:")
-    valor1 = input("Qual o valor1?")
-    valor2 = input("Qual o valor2?")
     if opcao ==  '1':
         resultado = soma(valor1,valor2)
         print(f'O resultado da soma é:{resultado}')
